@@ -1,0 +1,52 @@
+.calculator{
+    width: 70%;
+    text-align: center;
+    border: inset;
+    background-color:rgb(209, 208, 208);
+    margin:10%;
+    margin-bottom: 0;
+}
+
+#res{
+    background-color:white; 
+    height: 200px;
+    width: 90%;
+    margin: 4%;
+    font-size:50px;
+}
+
+#btn0,#btn1{
+ 
+    background-color:rgb(149, 162, 168);
+     color:black;
+     width: 30%;
+   
+} 
+
+#btnClr, #btnEql{
+    background-color:rgb(226, 156, 5);
+     color:white;
+     height: 70px;
+} 
+
+#btnSum, #btnSub, #btnMul, #btnDiv{
+    background-color:rgb(235, 232, 232);
+    color:black;
+   width: 15%;
+} 
+
+#btns {
+    display: flex;
+    flex-direction: column;
+}
+.btns1{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.btns2{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
